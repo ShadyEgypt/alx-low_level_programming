@@ -1,5 +1,6 @@
 #include <stdio.h>
-/*
+
+/**
 * main function: this function prints a line and returns 0
 * return 0
 */
