@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
-* main function: this function prints a line and returns 0
-* return 0
+* main - this function prints a line and returns 0
+* return: 0
 */
 int main(void)
 {
