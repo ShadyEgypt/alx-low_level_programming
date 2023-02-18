@@ -1,0 +1,26 @@
+#include <stdio.h>
+/**
+ * main - main block
+ * Description: Print all possible combinations 
+ * of single-digit numbers.
+ * Return: 0
+ */
+int main(void)
+{
+	int i = 0;
+
+	while (i < 10)
+	{
+		putchar(i + '0');
+		if (i < 9)
+		{
+			putchar(44); // puts a comma
+			putchar(32); // puts a space
+		}
+		i++;
+	}
+	putchar('\n');
+
+	return (0);
+}
+
