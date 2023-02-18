@@ -15,3 +15,4 @@ This is the second task in C programming
 
 6. Numberz
 
+7. Smile in the mirror
