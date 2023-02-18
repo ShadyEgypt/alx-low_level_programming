@@ -14,8 +14,8 @@ int main(void)
 		putchar(i + '0');
 		if (i < 9)
 		{
-			putchar(44); // puts a comma
-			putchar(32); // puts a space
+			putchar(44);
+			putchar(32);
 		}
 		i++;
 	}
