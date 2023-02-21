@@ -10,8 +10,8 @@
 
 int _isalpha(char c)
 {
-
 	int x = isalpha(c);
+
 	if (x > 0)
 		return (1);
 	else
