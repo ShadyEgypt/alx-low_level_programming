@@ -2,7 +2,7 @@
 /**
  * _islower - checks if a letter
  * is lowercase or not
- * c - a variable that represents the ASCII code
+ * @c: a variable that represents the ASCII code
  * of any letter
  * Return: 1 if lowercase, 0 if not lowercase
  */
