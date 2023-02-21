@@ -10,6 +10,7 @@
 
 int _isalpha(char c)
 {
+/* @x: a var to hold the result of isalpha */
 	int x = isalpha(c);
 
 	if (x > 0)
