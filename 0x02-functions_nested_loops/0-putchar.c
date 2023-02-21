@@ -12,8 +12,3 @@ int _putchar(void)
 	return (write(1, "_putchar\n", 10));
 }
 
-int main(void)
-{
-	_putchar();
-	return 0;
-}
