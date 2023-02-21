@@ -1,14 +1,16 @@
 #include "main.h"
 /**
- * print_alphabet - Print alphabet in lowercase
- * Description: This is 2nd task in the project
+ * print_alphabet_x10 - Print alphabet in lowercase
+ * ten times
+ * Description: This is 3rd task in the project
  * Return: 0
  */
 void print_alphabet_x10(void)
 {
 	int i;
 	char c;
-	for (i = 0; i <= 10; i++)
+
+	for (i = 0; i <= 9; i++)
 	{
 		for (c = 'a'; c <= 'z'; c++)
 		{
