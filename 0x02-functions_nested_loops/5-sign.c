@@ -1,7 +1,7 @@
 #include "main.h"
-/*
+/**
  * print_sign - prints the sign of a digit
- * Description - Get an entry from user and prints
+ * Description: Get an entry from user and prints
  * whether it's positive, negative or zero
  * @n: type int integer
  * Return: 0 or 1 or -1
