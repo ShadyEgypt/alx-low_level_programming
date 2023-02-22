@@ -1,4 +1,4 @@
-#include <stdlibo.h>
+#include <stdlib.h>
 /**
  * _abs - get the absoluite of a number
  * Description: if a number is negative
