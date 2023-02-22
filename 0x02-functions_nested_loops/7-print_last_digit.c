@@ -7,12 +7,20 @@
  * Return: return value of last digit
  */
 
+
 int print_last_digit(int n)
 {
 	int j;
 
-	j  = abs(n) % 10;
-	_putchar(j + '0');
-	return (j);
+	if (n < 0)
+	{
+		j  = abs(n) % 10;
+	}
+	else
+	{
+		j  = n  % 10;
+	}
+        _putchar(j + '0');
+        return (j);
 
 }
