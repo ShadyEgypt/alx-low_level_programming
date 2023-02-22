@@ -5,7 +5,7 @@
  * Description: gets a number from user and prints the
  * range of natural numbers from it and 98
  * @n: int type number
- * @i: iterator
+ * @i - iterator
  */
 void print_to_98(int n)
 {
@@ -13,7 +13,7 @@ void print_to_98(int n)
 
 	if (n > 98)
 	{
-		for (i = n;i >= 98; i--)
+		for (i = n; i >= 98; i--)
 		{
 			printf("%d", i);
 			if (i != 98)
