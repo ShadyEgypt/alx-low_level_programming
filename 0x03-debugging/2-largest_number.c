@@ -5,6 +5,7 @@
  * @a: first integer
  * @b: second integer
  * @c: third integer
+ * @largest - a var to hold the value of largest num
  * Return: largest number
  */
 
