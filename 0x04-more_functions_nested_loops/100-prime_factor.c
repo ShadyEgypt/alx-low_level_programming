@@ -7,7 +7,7 @@
  * 612852475143
  * @n - the number we want to get its prime factor
  * @maxPrime - maximum prime factor
- * @i - iterator 
+ * @i - iterator
  * Return: 0
  */
 
@@ -26,7 +26,6 @@ int main(void)
         maxPrime = 3;
         n = n / 3;
     }
-
 
     for (i = 5; i <= sqrt(n); i += 6) {
         while (n % i == 0) {
