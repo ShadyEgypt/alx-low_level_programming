@@ -12,7 +12,8 @@
  {
     (void) argc;
 
-    printf("%s\n", *argv);
-    
+    _putchar(*argv);
+    _putchar('\n')
+
     return (0);
  }
